@@ -190,7 +190,7 @@ const BuilderProductListingWithTab = (props: any) => {
   }
 
   return (
-    <div className="model listing-tab flex w-100">
+    <div className="model listing-tab flex w-100 testing">
       <div className="bg-img">
         <img src={data?.modelBgImage} alt={data?.modelName} />
       </div>
