@@ -69,7 +69,7 @@ const BuilderGallery = (props: any) => {
     setShowModal(true)
   }
   return (
-    <div className="imageGallery">
+    <div className="imageGallery testGallery">
       <Slider {...settings}>
         {data?.images?.map((link: any, index: any) => (
           <div key={index} className="slide">
