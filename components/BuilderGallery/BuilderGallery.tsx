@@ -14,7 +14,7 @@ const BuilderGallery = (props: any) => {
     swipeToSlide: true,
     centerMode: true,
     centerPadding: "90px",
-    rows: 2,
+    rows: 3,
     arrows: false,
     responsive: [
       {
